@@ -1,0 +1,12 @@
+### Servico de Consulta de Limite
+GET http://localhost:3003/consultalimite/438 HTTP/1.1
+content-type: application/json
+
+### Solicitar Cartão de Crédito
+POST http://localhost:3000/api/cartao HTTP/1.1
+content-type: application/json
+
+{
+    "id_cliente": 123,
+    "nome": "João Silva"
+}
